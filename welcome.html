@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome 🎧</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="welcome-container">
+    <h2>🎵 Welcome to Roomie Radar 🎵</h2>
+    <p>Choose your vibe and let’s match you with your hostel soulmate 🎶</p>
+    <p>🎁 Here's a song for you both — <strong>Let's start with a vibe 🎧💫</strong></p>
+
+    <!-- Working music from CDN -->
+    <audio id="bgMusic" loop>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button onclick="document.getElementById('bgMusic').play()" class="btn">▶️ Play Background Music</button>
+
+    <form id="findRoomieForm">
+      <input type="text" id="name" placeholder="Your name 📝" required />
+      <select id="genre" required>
+        <option value="">🎶 Favorite genre…</option>
+        <option>Pop</option>
+        <option>Indie</option>
+        <option>Rock</option>
+        <option>Hip‑Hop</option>
+        <option>EDM</option>
+      </select>
+      <select id="emoji" required>
+        <option value="">😎 Your vibe…</option>
+        <option>😄</option>
+        <option>😎</option>
+        <option>🤘</option>
+        <option>🎉</option>
+        <option>🧘</option>
+      </select>
+      <select id="hobby" required>
+        <option value="">🎨 Your hobby…</option>
+        <option>Reading</option>
+        <option>Gaming</option>
+        <option>Cooking</option>
+        <option>Music</option>
+        <option>Sports</option>
+      </select>
+      <select id="cycle" required>
+        <option value="">🌙 or 🌞?</option>
+        <option>Night Owl 🌙</option>
+        <option>Early Bird 🌞</option>
+      </select>
+      <button type="submit" class="btn">Find My Roomie 💫</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
