@@ -21,7 +21,6 @@ RoomieRadar is a Gen-Z inspired roommate matching app that pairs users based on 
 - HTML, CSS, JavaScript
 - YouTube Embed for music
 - Netlify for hosting
-- Optional APK build using WebView
 
 ## 🔗 Live App
 👉 [RoomieRadar on Netlify](https://imaginative-salmiakki-025825.netlify.app)
