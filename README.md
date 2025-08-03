@@ -29,11 +29,9 @@ RoomieRadar is a Gen-Z inspired roommate matching app that pairs users based on 
 ## 🏁 Built For
 Created as part of a submission for **Hack With Beat 2025**, a music-themed hackathon celebrating creativity and vibes.
 
-## 📸 Screenshots (Optional)
-_Add screenshots here if you’d like to show the UI._
 
 ## 🧠 Author
-Built solo by [Your Name] — first-time hacker, music lover, and vibe curator.
+Built solo by [Ankita Jethani] — first-time hacker, music lover, and vibe curator.
 
 ---
 
